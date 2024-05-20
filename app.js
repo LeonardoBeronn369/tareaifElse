@@ -39,8 +39,7 @@ if (calificacion >= 90 && calificacion <= 100){
 
 */
 
-/*
-////  Tarea 3  ////
+
 
 let lado1 = prompt('Ingresa el primer Lado del triangulo')
 
@@ -48,19 +47,15 @@ let lado2 = prompt('Ingresa el segundo Lado del triangulo')
 
 let lado3 = prompt('Ingresa el tercer Lado del triangulo')
 
-if (lado1 === lado2 && lado2 === lado3) {
+if ( lado1 <=0 || lado2 <= 0 || lado3 <= 0) {
+    console.log( 'Longitudes no validas')
+} else if (lado1 === lado2 && lado2 === lado3) {
     console.log('Equilatero')
 } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
     console.log('Isosceles')
 } else if(lado1 != lado2 && lado1 != lado3 && lado2 != lado3 ){
-    console.log('Escaleno')
-} else {
-    console.log('Longitudes no validas')
+    console.log('Escaleno') 
 }
-
-*/
-
-
 
 
 /*
@@ -103,6 +98,4 @@ if ( grados <= 0) {
 } else {
     console.log("Temperatura no válida.")
 }
-
 */
-
